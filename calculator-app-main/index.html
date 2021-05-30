@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container-body">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ethan Ferrier</a>.
+    </div>
+    <div class="container">
+      <div class="header">
+        <h3>calc</h3>
+        <div class="theme">
+          THEME
+          <div class="toggel">
+            <div class="toggelBox">
+              <label for="first" class="label" >1</label>
+              <input type="radio" checked name="style" id="first">
+            </div>
+            <div class="toggelBox">
+              <label for="second" class="label">2</label>
+              <input type="radio" name="style" id="second">
+            </div>
+            <div class="toggelBox">
+              <label for="third" class="label">3</label>
+              <input type="radio" name="style" id="third">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="result">
+        <p>399,981</p>  
+      </div>
+      
+      <div class="keypad">
+        <div class="row">
+          <div class="key">7</div>
+          <div class="key">8</div>
+          <div class="key">9</div>
+          <div class="key specail small">DEL</div>
+        </div>
+        <div class="row">
+          <div class="key">4</div>
+          <div class="key">5</div>
+          <div class="key">6</div>
+          <div class="key">+</div>
+        </div>
+        <div class="row">
+          <div class="key">1</div>
+          <div class="key">2</div>
+          <div class="key">3</div>
+          <div class="key">-</div>
+        </div>
+        <div class="row">
+          <div class="key">.</div>
+          <div class="key">0</div>
+          <div class="key">/</div>
+          <div class="key">x</div>
+        </div>
+        <div class="row">
+          <div class="key specail large">RESET</div>
+          <div class="key specail large equals">=</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
